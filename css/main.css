@@ -1,0 +1,140 @@
+
+html {
+    scroll-behavior: smooth;
+}
+.main-color {
+    color: #ff3150;
+}
+.titel h3 {
+    font-size:  2.5rem;
+}
+.titel h2 {
+    font-size:  5rem ;
+}
+/* start navbar  */
+.navbar .nav-link {
+    color: lightyellow;
+}
+.navbar .navbar-toggler {
+    border-color: white;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+    
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: #ff3150;
+}
+/* end navbar  */
+/* start home */
+#home {
+    height: 100vh;
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#home .contant > a:hover {
+    color: #ff3150;
+}
+.w-40 {
+    width: 40px;
+}
+.h-40 {
+    height: 40px;
+}
+/* end home */
+#about  {
+    background-image: url(../image/light_dot.jpg);
+}
+#about .titel h2 {
+    font-size:  5rem;
+}
+#about .titel h3 {
+    font-size:  2.5rem;
+}
+#services {
+    background-image: url(../image/dark_dot.jpg);
+}
+#services .titel h2 {
+    font-size:  5rem;
+}
+#services .box h2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5rem;
+    height: 2px;
+    background-color: #ff3150;
+}
+#testimonails .titel h3 {
+    font-size:  2.5rem;
+}
+#testimonails .titel h2 {
+    font-size:  5rem ;
+}
+#testimonails .box img {
+    width: 6rem;
+} 
+#testimonails .box .text {
+    margin-top: -2rem;
+}
+#testimonails .box .text span {
+    position: relative;
+}
+#testimonails .box .text span::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 2px;
+    background-color: #ff3150;
+}
+#testimonails .carousel-indicators [data-bs-target] {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-indent: 0;
+}
+#portfolio .contant .text {
+    transition: 0.5s;
+}
+#portfolio .contant:hover .text {
+    bottom: 10% !important;
+}
+.w-90 {
+    width: 90%;
+}
+#price .box .head-titel h3 {
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
